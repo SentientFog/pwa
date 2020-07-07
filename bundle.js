@@ -37,6 +37,8 @@
             return Module;
         }
 
+    function __cargo_web_snippet_84339b1bf72a580059a6e0ff9499e53759aef5b9(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof MouseEvent && o.type === "click"); }
+
     function __cargo_web_snippet_c26ddf75f581148e029dfcd95c037bb50d502e43(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).value=($1); }
 
     function __cargo_web_snippet_ab05f53189dacccf2d365ad26daa407d4f7abea9(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){return ($1).value;})()); }
@@ -44,6 +46,8 @@
     function __cargo_web_snippet_db12d53e9596e9bc7860a8231ec85044629926e7(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof HTMLTextAreaElement); }
 
     function __cargo_web_snippet_3c5e83d16a83fc7147ec91e2506438012952f55a(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof Element); }
+
+    function __cargo_web_snippet_ff5103e6cc179d13b4c7a785bdce2708fd559fc0(Module, $0) { Module.STDWEB_PRIVATE.tmp = Module.STDWEB_PRIVATE.to_js( $0 ); }
 
     function __cargo_web_snippet_614a3dd2adb7e9eac4a0ec6e59d37f87e0521c3b(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){return ($1).error;})()); }
 
@@ -54,6 +58,10 @@
     function __cargo_web_snippet_80d6d56760c65e49b7be8b6b01c1ea861b046bf0(Module, $0) { Module.STDWEB_PRIVATE.decrement_refcount( $0 ); }
 
     function __cargo_web_snippet_9f22d4ca7bc938409787341b7db181f8dd41e6df(Module, $0) { Module.STDWEB_PRIVATE.increment_refcount( $0 ); }
+
+    function __cargo_web_snippet_d03e4e6d48881ee5c20109a9318e607926dc91df(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof KeyboardEvent && o.type === "keypress"); }
+
+    function __cargo_web_snippet_23639371cb88eaf0e4e3ff14ba63d1e5b5cea0b2(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){return ($1).key;})()); }
 
     function __cargo_web_snippet_e854289309e564012996fbb70e7c19bf4e6a8866(Module, $0) { var r = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (r instanceof DOMException) && (r.name === "NamespaceError"); }
 
@@ -66,6 +74,8 @@
     function __cargo_web_snippet_c023351d5bff43ef3dd317b499821cd4e71492f0(Module, $0) { var r = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (r instanceof DOMException) && (r.name === "HierarchyRequestError"); }
 
     function __cargo_web_snippet_f6358c198ebcc61c9da370cca2679c0b8bc81a7b(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).removeAttribute(($1)); }
+
+    function __cargo_web_snippet_99c4eefdc8d4cc724135163b8c8665a1f3de99e4(Module, $0, $1, $2, $3) { $1 = Module.STDWEB_PRIVATE.to_js($1);$2 = Module.STDWEB_PRIVATE.to_js($2);$3 = Module.STDWEB_PRIVATE.to_js($3);Module.STDWEB_PRIVATE.from_js($0, (function(){var listener=($1);($2).addEventListener(($3),listener);return listener;})()); }
 
     function __cargo_web_snippet_f750c7bda400081b4d7209f43f9d59214d39f6ea(Module, $0, $1, $2) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);$2 = Module.STDWEB_PRIVATE.to_js($2);var listener=($0);($1).removeEventListener(($2),listener);listener.drop(); }
 
@@ -91,7 +101,11 @@
 
     function __cargo_web_snippet_a152e8d0e8fac5476f30c1d19e4ab217dbcba73d(Module, $0, $1, $2) { $1 = Module.STDWEB_PRIVATE.to_js($1);$2 = Module.STDWEB_PRIVATE.to_js($2);Module.STDWEB_PRIVATE.from_js($0, (function(){try{return {value:function(){return ($1).querySelector(($2));}(),success:true};}catch(error){return {error:error,success:false};}})()); }
 
+    function __cargo_web_snippet_1edaec034bdcb0a749c6d5de76c29f6371afb5a0(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof Event && o.type === "input"); }
+
     function __cargo_web_snippet_465ffdf4814bf5d08a3abdf8fe5e61a220b98c34(Module, $0) { var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof Node); }
+
+    function __cargo_web_snippet_24cd40a3653c1e6e6ebe883e2a7f2d0a48ebaeda(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){return ($1).textContent;})()); }
 
     function __cargo_web_snippet_08a3b15e1358700ac92bc556f9e9b8af660fc2c7(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).nodeValue=($1); }
 
@@ -102,6 +116,8 @@
     function __cargo_web_snippet_cd41a77d0178ae27c833ef2950e5f1a48a1455c1(Module, $0, $1, $2) { $1 = Module.STDWEB_PRIVATE.to_js($1);$2 = Module.STDWEB_PRIVATE.to_js($2);Module.STDWEB_PRIVATE.from_js($0, (function(){try{return {value:function(){return ($1).removeChild(($2));}(),success:true};}catch(error){return {error:error,success:false};}})()); }
 
     function __cargo_web_snippet_e741b9d9071097746386b2c2ec044a2bc73e688c(Module, $0, $1) { $0 = Module.STDWEB_PRIVATE.to_js($0);$1 = Module.STDWEB_PRIVATE.to_js($1);($0).appendChild(($1)); }
+
+    function __cargo_web_snippet_85b9ecbdb8513465b790546acfd0cd530441b8a4(Module, $0) { $0 = Module.STDWEB_PRIVATE.to_js($0);($0).stopPropagation(); }
 
     function __cargo_web_snippet_690311d2f9134ac0983620c38a9e6460d4165607(Module, $0, $1) { $1 = Module.STDWEB_PRIVATE.to_js($1);Module.STDWEB_PRIVATE.from_js($0, (function(){return ($1).nextSibling;})()); }
 
@@ -245,6 +261,9 @@
         imports.wbg.__wbg_cargowebsnippet9f22d4ca7bc938409787341b7db181f8dd41e6df_f184afed978d4a95 = function(arg0, arg1) {
             __cargo_web_snippet_9f22d4ca7bc938409787341b7db181f8dd41e6df(takeObject(arg0), arg1);
         };
+        imports.wbg.__wbg_cargowebsnippet85b9ecbdb8513465b790546acfd0cd530441b8a4_c156ae51cab56530 = function(arg0, arg1) {
+            __cargo_web_snippet_85b9ecbdb8513465b790546acfd0cd530441b8a4(takeObject(arg0), arg1);
+        };
         imports.wbg.__wbg_cargowebsnippet0aced9e2351ced72f1ff99645a129132b16c0d3c_13e902b8d846fb01 = function(arg0, arg1) {
             var ret = __cargo_web_snippet_0aced9e2351ced72f1ff99645a129132b16c0d3c(takeObject(arg0), arg1);
             return ret;
@@ -299,9 +318,16 @@
         imports.wbg.__wbindgen_cb_forget = function(arg0) {
             takeObject(arg0);
         };
+        imports.wbg.__wbg_cargowebsnippet84339b1bf72a580059a6e0ff9499e53759aef5b9_4e8ea0b89beeafa8 = function(arg0, arg1) {
+            var ret = __cargo_web_snippet_84339b1bf72a580059a6e0ff9499e53759aef5b9(takeObject(arg0), arg1);
+            return ret;
+        };
         imports.wbg.__wbg_cargowebsnippetde2896a7ccf316486788a4d0bc433c25d2f1a12b_cfdc90cf53c4d5da = function(arg0, arg1) {
             var ret = __cargo_web_snippet_de2896a7ccf316486788a4d0bc433c25d2f1a12b(takeObject(arg0), arg1);
             return ret;
+        };
+        imports.wbg.__wbg_cargowebsnippetff5103e6cc179d13b4c7a785bdce2708fd559fc0_c2c7bf9cb65f32b6 = function(arg0, arg1) {
+            __cargo_web_snippet_ff5103e6cc179d13b4c7a785bdce2708fd559fc0(takeObject(arg0), arg1);
         };
         imports.wbg.__wbg_cargowebsnippet2908dbb08792df5e699e324eec3e29fd6a57c2c9_1aba12964286db2a = function(arg0, arg1) {
             var ret = __cargo_web_snippet_2908dbb08792df5e699e324eec3e29fd6a57c2c9(takeObject(arg0), arg1);
@@ -319,8 +345,18 @@
             var ret = __cargo_web_snippet_e854289309e564012996fbb70e7c19bf4e6a8866(takeObject(arg0), arg1);
             return ret;
         };
+        imports.wbg.__wbg_cargowebsnippet23639371cb88eaf0e4e3ff14ba63d1e5b5cea0b2_08e8ebb1e3ed8194 = function(arg0, arg1, arg2) {
+            __cargo_web_snippet_23639371cb88eaf0e4e3ff14ba63d1e5b5cea0b2(takeObject(arg0), arg1, arg2);
+        };
+        imports.wbg.__wbg_cargowebsnippetd03e4e6d48881ee5c20109a9318e607926dc91df_837f80665ae87103 = function(arg0, arg1) {
+            var ret = __cargo_web_snippet_d03e4e6d48881ee5c20109a9318e607926dc91df(takeObject(arg0), arg1);
+            return ret;
+        };
         imports.wbg.__wbg_cargowebsnippetf750c7bda400081b4d7209f43f9d59214d39f6ea_c158729eaadb8dbe = function(arg0, arg1, arg2, arg3) {
             __cargo_web_snippet_f750c7bda400081b4d7209f43f9d59214d39f6ea(takeObject(arg0), arg1, arg2, arg3);
+        };
+        imports.wbg.__wbg_cargowebsnippet99c4eefdc8d4cc724135163b8c8665a1f3de99e4_14389f68322b60f1 = function(arg0, arg1, arg2, arg3, arg4) {
+            __cargo_web_snippet_99c4eefdc8d4cc724135163b8c8665a1f3de99e4(takeObject(arg0), arg1, arg2, arg3, arg4);
         };
         imports.wbg.__wbg_cargowebsnippet1c30acb32a1994a07c75e804ae9855b43f191d63_6d353463ef525961 = function(arg0) {
             __cargo_web_snippet_1c30acb32a1994a07c75e804ae9855b43f191d63(takeObject(arg0));
@@ -364,6 +400,13 @@
         imports.wbg.__wbg_cargowebsnippet08a3b15e1358700ac92bc556f9e9b8af660fc2c7_9e8cd6528929926d = function(arg0, arg1, arg2) {
             __cargo_web_snippet_08a3b15e1358700ac92bc556f9e9b8af660fc2c7(takeObject(arg0), arg1, arg2);
         };
+        imports.wbg.__wbg_cargowebsnippet24cd40a3653c1e6e6ebe883e2a7f2d0a48ebaeda_6fac40e57581596a = function(arg0, arg1, arg2) {
+            __cargo_web_snippet_24cd40a3653c1e6e6ebe883e2a7f2d0a48ebaeda(takeObject(arg0), arg1, arg2);
+        };
+        imports.wbg.__wbg_cargowebsnippet1edaec034bdcb0a749c6d5de76c29f6371afb5a0_691910c572e385d4 = function(arg0, arg1) {
+            var ret = __cargo_web_snippet_1edaec034bdcb0a749c6d5de76c29f6371afb5a0(takeObject(arg0), arg1);
+            return ret;
+        };
         imports.wbg.__wbg_cargowebsnippeta152e8d0e8fac5476f30c1d19e4ab217dbcba73d_d3aa4336afb90213 = function(arg0, arg1, arg2, arg3) {
             __cargo_web_snippet_a152e8d0e8fac5476f30c1d19e4ab217dbcba73d(takeObject(arg0), arg1, arg2, arg3);
         };
@@ -378,12 +421,12 @@
             var ret = wasm.__wbindgen_export_0;
             return addHeapObject(ret);
         };
-        imports.wbg.__wbindgen_closure_wrapper324 = function(arg0, arg1, arg2) {
-            var ret = makeClosure(arg0, arg1, 71, __wbg_adapter_14);
+        imports.wbg.__wbindgen_closure_wrapper380 = function(arg0, arg1, arg2) {
+            var ret = makeClosure(arg0, arg1, 96, __wbg_adapter_17);
             return addHeapObject(ret);
         };
-        imports.wbg.__wbindgen_closure_wrapper322 = function(arg0, arg1, arg2) {
-            var ret = makeClosure(arg0, arg1, 71, __wbg_adapter_17);
+        imports.wbg.__wbindgen_closure_wrapper382 = function(arg0, arg1, arg2) {
+            var ret = makeClosure(arg0, arg1, 96, __wbg_adapter_14);
             return addHeapObject(ret);
         };
 
